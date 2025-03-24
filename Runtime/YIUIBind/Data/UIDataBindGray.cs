@@ -29,14 +29,13 @@ namespace YIUIFramework
         {
             base.OnRefreshData();
             m_Grayscale            ??= GetComponent<UIEffect>();
-            m_Grayscale.effectMode =   EffectMode.Grayscale;
+            m_Grayscale.toneFilter =   ToneFilter.Grayscale;
         }
 
         protected override void OnValueChanged()
         {
             if (m_Grayscale == null) return;
-
-            m_Grayscale.effectFactor = GetResult() ? m_EnabledGray : m_DisabledGray;
+            m_Grayscale.toneIntensity = GetResult() ? m_EnabledGray : m_DisabledGray;
         }
     }
 }
