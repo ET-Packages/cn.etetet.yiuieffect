@@ -17,7 +17,7 @@ namespace Coffee.UIExtensions
     /// <summary>
     /// Render maskable and sortable particle effect ,without Camera, RenderTexture or Canvas.
     /// </summary>
-    [Icon("Packages/com.coffee.ui-particle/Icons/UIParticleIcon.png")]
+    [Icon("Packages/cn.etetet.yiuieffect/Editor/UIParticleEditor/UIParticleIcon.png")]
     [ExecuteAlways]
     [RequireComponent(typeof(RectTransform))]
     [RequireComponent(typeof(CanvasRenderer))]

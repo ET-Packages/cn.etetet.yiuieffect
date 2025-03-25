@@ -5,7 +5,7 @@ using UnityEngine.Rendering;
 
 namespace Coffee.UIEffects
 {
-    [Icon("Packages/com.coffee.ui-effect/Editor/UIEffectIconIcon.png")]
+    [Icon("Packages/cn.etetet.yiuieffect/Editor/UIEffect/UIEffectIconIcon.png")]
     [ExecuteAlways]
     [DisallowMultipleComponent]
     public class UIEffect : UIEffectBase

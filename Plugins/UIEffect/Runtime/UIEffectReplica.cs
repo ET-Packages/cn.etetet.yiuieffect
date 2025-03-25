@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Coffee.UIEffects
 {
-    [Icon("Packages/com.coffee.ui-effect/Editor/UIEffectIconIcon.png")]
+    [Icon("Packages/cn.etetet.yiuieffect/Editor/UIEffect/UIEffectIconIcon.png")]
     public class UIEffectReplica : UIEffectBase
     {
         [SerializeField] private UIEffect m_Target;
