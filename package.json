@@ -14,9 +14,7 @@
     "url": "https://github.com/ET-Packages/cn.etetet.yiuieffect"
   },
   "relatedPackages": {},
-  "dependencies": {
-    "cn.etetet.yiuiframework": "2.0.0"
-  },
+  "dependencies": {},
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@ET-Packages"
   }

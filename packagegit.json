@@ -1,4 +1,6 @@
 {
     "Id": 1306,
-    "Name": "YIUI.Effect"
+    "Name": "YIUI.Effect",
+    "Level": 2,
+    "AllowSameLevelAccess": true
 }
